@@ -1,0 +1,144 @@
+<<<<<<< HEAD
+body{
+    background-color:pink;
+}
+.body {
+    font-family: Arial, sans-serif;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    transition: all .2s ease-in;
+    background: #073af180; 
+    padding: 20px;
+    text-align: center;
+}
+
+#login-container {
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 800px;
+   
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+    width: 400px;
+    /* background-color: ; */
+
+    transition: all .2s ease-in;
+    /* background: #736ec9; */
+
+    background: linear-gradient(rgba(127, 127, 221, 0.292), rgba(11, 76, 218, 0.5));
+    border-radius: 50px;
+
+   
+}
+
+#feeds {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    width: 1000px;
+   
+}
+
+.feed-item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   /* background-image: url(linkedin.png); */
+    width: 500px;
+    height: 500px;
+    margin: 100px;
+
+
+} 
+.header{
+    background-color: blueviolet;
+    text-align: center;
+}
+#dashboard-container{
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+    width: 300px;
+}
+.linkedin{
+    background-image: url(linkedin.png);
+    width: 500px;
+    height: 500px;
+    image-resolution: 500px;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+.instagram{
+    background-image: url(instagram.png);
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    background-size: cover;
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+=======
+
+  body {
+      font-family: Arial, sans-serif;
+           margin: 20px;
+           background-color: #2596be;
+    }
+
+ #expenseList {
+  list-style-type: none;
+  padding: 0;
+  }
+
+ li {
+      margin-bottom: 10px;
+         padding: 10px;
+         border: 1px solid #ccc;
+        border-radius: 5px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+        }
+
+ button {
+     cursor: pointer;
+ }
+ h1{
+    text-align: center;
+ }
+
+ .lable{
+    font-size: large;
+    display:flex;
+    justify-content: space-around;
+ }
+
+ 
+ li{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+ }
+ span{
+    width: 300px;
+ }
+
+span .c2{
+    margin-left: 10px;
+}
+>>>>>>> 5f8652ac3718c84e6389f15946c1c000d9aa7959
